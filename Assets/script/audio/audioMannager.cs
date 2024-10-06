@@ -18,6 +18,7 @@ public class audioMannager : MonoBehaviour
     public AudioClip CungBan;
     public AudioClip Coin;
     public AudioClip Heal;
+    public AudioClip bantrung;
     public static audioMannager instance;
     private void Awake()
     {

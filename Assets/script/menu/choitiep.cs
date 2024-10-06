@@ -22,7 +22,7 @@ public class choitiep : MonoBehaviour
         if(save.Instance.levelScorer.mau > 0)
         {
             save.Instance.isNewGame = false;
-            //EnemyData.instance.isnewgame = false;
+            
             SceneManager.LoadScene(1);
         }
         else
@@ -32,7 +32,7 @@ public class choitiep : MonoBehaviour
     }
     public void Continiu()
     {
-        
+        PlayerData.instance.LoadDataPlayer();
         //EnemyData.instance.LoadDataEnemy();
         string sceneNames = PlayerData.instance.playerdata.sceneName;
         if (!string.IsNullOrEmpty(sceneNames))

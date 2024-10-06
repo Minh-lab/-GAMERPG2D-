@@ -1592,14 +1592,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 586265796}
   SFXSource: {fileID: 1217843107}
-  backgrond: {fileID: 8300000, guid: a01ff3c23afe440489cd372f80778f55, type: 3}
-  backgrond1: {fileID: 8300000, guid: 6e1314277b3815641a484c35c8153a8a, type: 3}
-  backgrond2: {fileID: 8300000, guid: bd638ef1a230a8e42b730a63df7cf9ff, type: 3}
-  backgrond3: {fileID: 8300000, guid: 2a50720a4c001cc46ae6fdddab487dc5, type: 3}
-  Kiemchem: {fileID: 8300000, guid: ca342a33db5c51d4f936e3895f0778bb, type: 3}
+  backgrond: {fileID: 8300000, guid: 00dc560c08ead1a468cf85590b0f9e82, type: 3}
+  backgrond1: {fileID: 8300000, guid: f28daf79988cd33489cc3cc9437ce87a, type: 3}
+  backgrond2: {fileID: 8300000, guid: 1f269b5cde6f44b458bff1fd16eacfb4, type: 3}
+  backgrond3: {fileID: 8300000, guid: 9f8bd6dd7423fce4381d095c97c552f9, type: 3}
+  Kiemchem: {fileID: 8300000, guid: 3fb6ab9f6ae65f44e96440e4fd017e4c, type: 3}
   CungBan: {fileID: 8300000, guid: 2cf5a9d93f9c5264caff0f60c1c555d7, type: 3}
-  Coin: {fileID: 8300000, guid: e797b00d06343a948973cd3bf23715f2, type: 3}
+  Coin: {fileID: 8300000, guid: d7b4eb8cd28d37a45938e34e7bd248d1, type: 3}
   Heal: {fileID: 8300000, guid: fe3195a6af9341b4e9c2d25290146b50, type: 3}
+  bantrung: {fileID: 8300000, guid: 8a94273f6795a4b40a4c5d4babfdb07f, type: 3}
 --- !u!4 &270620736
 Transform:
   m_ObjectHideFlags: 0

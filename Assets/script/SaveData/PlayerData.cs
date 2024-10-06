@@ -59,7 +59,7 @@ public class PlayerData : MonoBehaviour
     public void LoadSceneName()
     {
         string filePath = Path.Combine(Application.persistentDataPath, sceneFile);
-        if(!File.Exists(filePath))
+        if (!File.Exists(filePath))
         {
             playerdata.sceneName = "man1";
         }

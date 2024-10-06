@@ -30,6 +30,10 @@ public class Knock : MonoBehaviour
         //if (chet) return;
         if ((collision.CompareTag("dan") || collision.CompareTag("damekiem")) && canTakeDamage)
         {
+            if (collision.CompareTag("dan"))
+            {
+                audioMannager.instance.PlaySFX(audioMannager.instance.bantrung);
+            }
             Transform enemyTransform = collision.transform;
             GetKnockedBack(enemyTransform, sknockBackThrust);
 

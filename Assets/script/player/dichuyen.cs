@@ -99,9 +99,7 @@ public class dichuyen : MonoBehaviour
             ismenu = false;
 
             // Lưu trạng thái player
-            Vector3 currentPosition = a.transform.position;
-            string currentSceneName = SceneManager.GetActiveScene().name;
-            PlayerData.instance.SaveDataPlayer(currentPosition, currentSceneName);
+            
 
 
             // Gọi lưu quái vật nếu nó còn sống
@@ -123,6 +121,13 @@ public class dichuyen : MonoBehaviour
             Time.timeScale = 1;
             ismenu = true;
         }
+       
+    }
+    public void Save()
+    {
+        Vector3 currentPosition = a.transform.position;
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        PlayerData.instance.SaveDataPlayer(currentPosition, currentSceneName);
     }
 
 
